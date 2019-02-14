@@ -7,3 +7,11 @@ a={10,20,'abc',True}
 list.append(x) 增加元素 将元素x增加到列表list尾部
 list.extend(aList) 增加元素 将列表alist所有元素增加到列表list尾部
 list.insert(insert(index,x)增加元素 在列表list指定位置index处插入元素x
+list.remove(x)删除元素 在列表list中删除首次出现的元素
+list.pop([index])删除并返回列表list指定为止index处的元素，默认是最后一个元素
+list.clear()删除所有元素 删除列表所有元素，并不是删除列表对象
+list.index(x)访问元素 返回第一个x的索引位置，若不存在x元素抛出异常
+list.count(x)计数 返回指定元素x在list列表出现的次数
+len(list)列表长度 返回列表中包含元素的个数
+
+
