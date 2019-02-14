@@ -1,1 +1,9 @@
-
+序列是一种数据储存方式
+包含字符串，列表，元素，字典，集合
+a = {10,20,30,40}
+python中一切皆对象
+列表：用于存储任意数目，任意类型的数据集合，可以放任意的数据类型
+a={10,20,'abc',True}
+list.append(x) 增加元素 将元素x增加到列表list尾部
+list.extend(aList) 增加元素 将列表alist所有元素增加到列表list尾部
+list.insert(insert(index,x)增加元素 在列表list指定位置index处插入元素x
