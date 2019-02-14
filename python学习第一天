@@ -13,5 +13,7 @@ list.clear()删除所有元素 删除列表所有元素，并不是删除列表�
 list.index(x)访问元素 返回第一个x的索引位置，若不存在x元素抛出异常
 list.count(x)计数 返回指定元素x在list列表出现的次数
 len(list)列表长度 返回列表中包含元素的个数
-
+list.reverse()反转列表所有元素原地反转
+list.sort()排序所有元素原地排序
+list.copy()浅拷贝 返回列表对象的浅拷贝
 
